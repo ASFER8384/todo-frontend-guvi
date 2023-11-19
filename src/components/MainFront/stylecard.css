@@ -1,0 +1,50 @@
+/* General Card Styling */
+.card {
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 300px;
+    height: 250px;
+    cursor: pointer;
+    transition: all 10s ease-in-out;
+    padding: 5px;
+}
+
+/* Card Title Styling */
+.card-title {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transition: all 10s ease-in-out;
+    height: 100%;
+}
+
+/* Show Hover Card on Card Hover */
+.card:hover .hover-card {
+    display: block;
+}
+
+/* Show Delete Button on Card Hover */
+.card-btn-del {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    transition: all 0.1s ease-in-out;
+}
+
+/* Hidden by default */
+.hover-card {
+    display: none;
+    /* Additional styles for hover-card when displayed */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Icon Styles (Edit/Delete) */
+.card-edit-icon,
+.card-del-icon {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    /* Additional icon styles */
+}

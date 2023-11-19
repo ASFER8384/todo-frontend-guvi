@@ -1,0 +1,30 @@
+.tododisplay{
+    /* border: 1px solid black; */
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+
+.todocarddisplay{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+
+    
+}
+
+
+
+.taskaddbtn{
+    position: absolute;
+    top:40px;
+    right:40px;
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+
